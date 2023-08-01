@@ -200,3 +200,6 @@ $wgAddGroups['stewards'][] = 'stewards';
 $wgRemoveGroups['stewards'][] = 'stewards';
 
 $wgGroupPermissions['*']['userrights'] = true;
+
+# Show more detailed errors
+$wgShowExceptionDetails = true;
